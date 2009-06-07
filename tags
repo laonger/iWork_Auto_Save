@@ -1,0 +1,526 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AEEnum	lib/aem/typewrappers.py	/^class AEEnum(AETypeBase):$/;"	c
+AEKey	lib/aem/typewrappers.py	/^class AEKey(AETypeBase):$/;"	c
+AEM_comparable	lib/aem/__init__.py	/^	def AEM_comparable(self):$/;"	m	class:Application
+AEM_comparable	lib/aem/aemreference.py	/^	def AEM_comparable(self):$/;"	m	class:Query
+AEM_packself	lib/aem/__init__.py	/^	def AEM_packself(self, codecs):$/;"	m	class:Application
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:IsIn
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:NotEquals
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:Specifier
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:UnkeyedElements
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:_ComparisonTest
+AEM_packself	lib/aem/aemreference.py	/^	def AEM_packself(self, codecs):$/;"	m	class:_LogicalTest
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:AllElements
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:CustomRoot
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:DeferredSpecifier
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:ElementByOrdinal
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:ElementByRelativePosition
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:ElementsByFilter
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:ElementsByRange
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:InsertionSpecifier
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:NOT
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:Property
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:ReferenceRoot
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:UnkeyedElements
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:UserProperty
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:_ComparisonTest
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:_LogicalTest
+AEM_resolve	lib/aem/aemreference.py	/^	def AEM_resolve(self, obj):$/;"	m	class:_SingleElement
+AEM_root	lib/aem/aemreference.py	/^	def AEM_root(self):$/;"	m	class:DeferredSpecifier
+AEM_root	lib/aem/aemreference.py	/^	def AEM_root(self):$/;"	m	class:ReferenceRoot
+AEM_root	lib/aem/aemreference.py	/^	def AEM_root(self):$/;"	m	class:Specifier
+AEM_trueself	lib/aem/aemreference.py	/^	def AEM_trueself(self): # override default implementation to return the UnkeyedElements object stored inside of this AllElements instance$/;"	m	class:AllElements
+AEM_trueself	lib/aem/aemreference.py	/^	def AEM_trueself(self):$/;"	m	class:DeferredSpecifier
+AEM_trueself	lib/aem/aemreference.py	/^	def AEM_trueself(self):$/;"	m	class:Specifier
+AEProp	lib/aem/typewrappers.py	/^class AEProp(AETypeBase):$/;"	c
+AEType	lib/aem/typewrappers.py	/^class AEType(AETypeBase):$/;"	c
+AETypeBase	lib/aem/typewrappers.py	/^class AETypeBase(object): # base class; exposed for typechecking purposes$/;"	c
+AND	lib/aem/aemreference.py	/^	def AND(self, operand2, *operands):$/;"	m	class:Test
+AND	lib/aem/aemreference.py	/^class AND(_LogicalTest):$/;"	c
+AND	lib/appscript/reference.py	/^	def AND(self, *operands):$/;"	m	class:Reference
+AND	lib/appscript/referencerenderer.py	/^	def AND(self, *operands):$/;"	m	class:_Formatter
+AS__eq__	lib/appscript/reference.py	/^	def AS__eq__(self, operand):$/;"	m	class:Reference
+AS__ge__	lib/appscript/reference.py	/^	def AS__ge__(self, operand):$/;"	m	class:Reference
+AS__gt__	lib/appscript/reference.py	/^	def AS__gt__(self, operand):$/;"	m	class:Reference
+AS__le__	lib/appscript/reference.py	/^	def AS__le__(self, operand):$/;"	m	class:Reference
+AS__lt__	lib/appscript/reference.py	/^	def AS__lt__(self, operand):$/;"	m	class:Reference
+AS__ne__	lib/appscript/reference.py	/^	def AS__ne__(self, operand):$/;"	m	class:Reference
+AS_formatcommand	lib/appscript/reference.py	/^	def AS_formatcommand(self, args):$/;"	m	class:Command
+AS_newreference	lib/appscript/reference.py	/^	def AS_newreference(self, ref):$/;"	m	class:Application
+AS_resolve	lib/appscript/genericreference.py	/^	def AS_resolve(self, Reference, appdata):$/;"	m	class:GenericReference
+Alias	lib/aem/mactypes.py	/^class Alias(_Base):$/;"	c
+AllElements	lib/aem/aemreference.py	/^class AllElements(_MultipleElements):$/;"	c
+AppData	lib/appscript/reference.py	/^class AppData(aem.Codecs):$/;"	c
+Application	lib/aem/__init__.py	/^class Application(Query):$/;"	c
+Application	lib/appscript/reference.py	/^class Application(Reference):$/;"	c
+ApplicationNotFoundError	lib/aem/findapp.py	/^class ApplicationNotFoundError(Exception):$/;"	c
+ApplicationRoot	lib/aem/aemreference.py	/^class ApplicationRoot(ReferenceRoot):$/;"	c
+BeginsWith	lib/aem/aemreference.py	/^class BeginsWith(_ComparisonTest):$/;"	c
+CantLaunchApplicationError	lib/aem/aemconnect.py	/^class CantLaunchApplicationError(Exception):$/;"	c
+Codecs	lib/aem/aemcodecs.py	/^class Codecs(object):$/;"	c
+Command	lib/appscript/reference.py	/^class Command(_Base):$/;"	c
+CommandError	lib/appscript/reference.py	/^class CommandError(Exception):$/;"	c
+Contains	lib/aem/aemreference.py	/^class Contains(_ComparisonTest):$/;"	c
+CurrentContainer	lib/aem/aemreference.py	/^class CurrentContainer(ReferenceRoot):$/;"	c
+CustomRoot	lib/aem/aemreference.py	/^class CustomRoot(ReferenceRoot):$/;"	c
+DeferredSpecifier	lib/aem/aemreference.py	/^class DeferredSpecifier(Query):	$/;"	c
+ElementByID	lib/aem/aemreference.py	/^class ElementByID(_SingleElement):$/;"	c
+ElementByIndex	lib/aem/aemreference.py	/^class ElementByIndex(_SingleElement):$/;"	c
+ElementByName	lib/aem/aemreference.py	/^class ElementByName(_SingleElement):$/;"	c
+ElementByOrdinal	lib/aem/aemreference.py	/^class ElementByOrdinal(_SingleElement):$/;"	c
+ElementByRelativePosition	lib/aem/aemreference.py	/^class ElementByRelativePosition(_SingleElement):$/;"	c
+ElementsByFilter	lib/aem/aemreference.py	/^class ElementsByFilter(_MultipleElements):$/;"	c
+ElementsByRange	lib/aem/aemreference.py	/^class ElementsByRange(_MultipleElements):$/;"	c
+EndsWith	lib/aem/aemreference.py	/^class EndsWith(_ComparisonTest):$/;"	c
+Equals	lib/aem/aemreference.py	/^class Equals(_ComparisonTest):$/;"	c
+Event	lib/aem/aemsend.py	/^class Event(object):$/;"	c
+EventError	lib/aem/aemsend.py	/^class EventError(MacOSError):$/;"	c
+File	lib/aem/mactypes.py	/^class File(_Base):$/;"	c
+GenericApp	lib/appscript/reference.py	/^class GenericApp(GenericReference):$/;"	c
+GenericReference	lib/appscript/genericreference.py	/^class GenericReference(object):$/;"	c
+GreaterOrEquals	lib/aem/aemreference.py	/^class GreaterOrEquals(_ComparisonTest):$/;"	c
+GreaterThan	lib/aem/aemreference.py	/^class GreaterThan(_ComparisonTest):$/;"	c
+ID	lib/appscript/reference.py	/^	def ID(self, id):$/;"	m	class:Reference
+InsertionSpecifier	lib/aem/aemreference.py	/^class InsertionSpecifier(Specifier):$/;"	c
+IsIn	lib/aem/aemreference.py	/^class IsIn(Contains):$/;"	c
+Keyword	lib/appscript/keywordwrapper.py	/^class Keyword(object):$/;"	c
+LessOrEquals	lib/aem/aemreference.py	/^class LessOrEquals(_ComparisonTest):$/;"	c
+LessThan	lib/aem/aemreference.py	/^class LessThan(_ComparisonTest):$/;"	c
+LittleEndianParser	lib/appscript/terminologyparser.py	/^class LittleEndianParser(Parser):$/;"	c
+NOT	lib/aem/aemreference.py	/^class NOT(_LogicalTest):$/;"	c
+NOT	lib/appscript/referencerenderer.py	/^	def NOT(self):$/;"	m	class:_Formatter
+NotEquals	lib/aem/aemreference.py	/^class NotEquals(Equals):$/;"	c
+OR	lib/aem/aemreference.py	/^	def OR(self, operand2, * operands):$/;"	m	class:Test
+OR	lib/aem/aemreference.py	/^class OR(_LogicalTest):$/;"	c
+OR	lib/appscript/reference.py	/^	def OR(self, *operands):$/;"	m	class:Reference
+OR	lib/appscript/referencerenderer.py	/^	def OR(self, *operands):$/;"	m	class:_Formatter
+OSAX	lib/osax.py	/^class OSAX(reference.Application):$/;"	c
+ObjectBeingExamined	lib/aem/aemreference.py	/^class ObjectBeingExamined(ReferenceRoot):$/;"	c
+Parser	lib/appscript/terminologyparser.py	/^class Parser:$/;"	c
+Property	lib/aem/aemreference.py	/^class Property(_PositionSpecifier):$/;"	c
+Query	lib/aem/aemreference.py	/^class Query(object):$/;"	c
+Reference	lib/appscript/reference.py	/^class Reference(_Base):$/;"	c
+ReferenceRoot	lib/aem/aemreference.py	/^class ReferenceRoot(_PositionSpecifier):$/;"	c
+Specifier	lib/aem/aemreference.py	/^class Specifier(Query):$/;"	c
+Test	lib/aem/aemreference.py	/^class Test(Query):$/;"	c
+UnitTypeCodecs	lib/aem/aemcodecs.py	/^class UnitTypeCodecs(object):$/;"	c
+Units	lib/aem/mactypes.py	/^class Units(object):$/;"	c
+UnkeyedElements	lib/aem/aemreference.py	/^class UnkeyedElements(Specifier):$/;"	c
+UserProperty	lib/aem/aemreference.py	/^class UserProperty(_PositionSpecifier):$/;"	c
+_Base	lib/aem/mactypes.py	/^class _Base(object):$/;"	c
+_Base	lib/appscript/reference.py	/^class _Base(object):$/;"	c
+_CollectComparable	lib/aem/aemreference.py	/^class _CollectComparable:$/;"	c
+_ComparisonTest	lib/aem/aemreference.py	/^class _ComparisonTest(Test):$/;"	c
+_Formatter	lib/appscript/referencerenderer.py	/^class _Formatter:$/;"	c
+_KeywordShim	lib/appscript/keywordwrapper.py	/^class _KeywordShim(object):$/;"	c
+_LogicalTest	lib/aem/aemreference.py	/^class _LogicalTest(Test):$/;"	c
+_MultipleElements	lib/aem/aemreference.py	/^class _MultipleElements(_PositionSpecifier):$/;"	c
+_Ordinal	lib/aem/aemcodecs.py	/^class _Ordinal:$/;"	c
+_PositionSpecifier	lib/aem/aemreference.py	/^class _PositionSpecifier(Specifier):$/;"	c
+_Range	lib/aem/aemcodecs.py	/^class _Range:$/;"	c
+_SingleElement	lib/aem/aemreference.py	/^class _SingleElement(_PositionSpecifier):$/;"	c
+__call__	lib/aem/aemreference.py	/^	def __call__(self, *args):$/;"	m	class:_CollectComparable	file:
+__call__	lib/appscript/genericreference.py	/^	def __call__(self, *args, **kargs):$/;"	m	class:GenericReference	file:
+__call__	lib/appscript/reference.py	/^	def __call__(self, *args, **kargs):$/;"	m	class:Command	file:
+__call__	lib/appscript/reference.py	/^	def __call__(self, *args, **kargs):$/;"	m	class:GenericApp	file:
+__call__	lib/appscript/reference.py	/^	def __call__(self, *args, **kargs):$/;"	m	class:Reference	file:
+__del__	lib/aem/__init__.py	/^	def __del__(self):$/;"	m	class:Application	file:
+__eq__	lib/aem/__init__.py	/^	def __eq__(self, val):$/;"	m	class:Application	file:
+__eq__	lib/aem/aemreference.py	/^	def __eq__(self, v):$/;"	m	class:DeferredSpecifier	file:
+__eq__	lib/aem/aemreference.py	/^	def __eq__(self, v):$/;"	m	class:Query	file:
+__eq__	lib/aem/mactypes.py	/^	def __eq__(self, val):$/;"	m	class:Units	file:
+__eq__	lib/aem/mactypes.py	/^	def __eq__(self, val):$/;"	m	class:_Base	file:
+__eq__	lib/aem/typewrappers.py	/^	def __eq__(self, val):$/;"	m	class:AETypeBase	file:
+__eq__	lib/appscript/genericreference.py	/^	def __eq__(self, i):$/;"	m	class:GenericReference	file:
+__eq__	lib/appscript/keywordwrapper.py	/^	def __eq__(self, val):$/;"	m	class:Keyword	file:
+__eq__	lib/appscript/reference.py	/^	def __eq__(self, val):$/;"	m	class:Reference	file:
+__float__	lib/aem/mactypes.py	/^	def __float__(self):$/;"	m	class:Units	file:
+__ge__	lib/appscript/genericreference.py	/^	def __ge__(self, i):$/;"	m	class:GenericReference	file:
+__getattr__	lib/aem/aemreference.py	/^	def __getattr__(self, name):$/;"	m	class:_CollectComparable	file:
+__getattr__	lib/appscript/genericreference.py	/^	def __getattr__(self, i):$/;"	m	class:GenericReference	file:
+__getattr__	lib/appscript/keywordwrapper.py	/^	def __getattr__(self, name): $/;"	m	class:_KeywordShim	file:
+__getattr__	lib/appscript/reference.py	/^	def __getattr__(self, name):$/;"	m	class:Reference	file:
+__getitem__	lib/appscript/genericreference.py	/^	def __getitem__(self, i):$/;"	m	class:GenericReference	file:
+__getitem__	lib/appscript/reference.py	/^	def __getitem__(self, selector):$/;"	m	class:Reference	file:
+__gt__	lib/appscript/genericreference.py	/^	def __gt__(self, i):$/;"	m	class:GenericReference	file:
+__hash__	lib/aem/__init__.py	/^	def __hash__(self):$/;"	m	class:Application	file:
+__hash__	lib/aem/aemreference.py	/^	def __hash__(self):$/;"	m	class:DeferredSpecifier	file:
+__hash__	lib/aem/aemreference.py	/^	def __hash__(self):$/;"	m	class:Query	file:
+__hash__	lib/aem/mactypes.py	/^	def __hash__(self):$/;"	m	class:Units	file:
+__hash__	lib/aem/mactypes.py	/^	def __hash__(self):$/;"	m	class:_Base	file:
+__hash__	lib/aem/typewrappers.py	/^	def __hash__(self): $/;"	m	class:AETypeBase	file:
+__hash__	lib/appscript/genericreference.py	/^	def __hash__(self):$/;"	m	class:GenericReference	file:
+__hash__	lib/appscript/keywordwrapper.py	/^	def __hash__(self): $/;"	m	class:Keyword	file:
+__hash__	lib/appscript/reference.py	/^	def __hash__(self):$/;"	m	class:Reference	file:
+__init__	iwork_auto_save.py	/^    def __init__(self, app_name):$/;"	m	class:if_app_on
+__init__	iwork_auto_save.py	/^    def __init__(self,app_name):$/;"	m	class:auto_save
+__init__	lib/aem/__init__.py	/^	def __init__(self, path=None, pid=None, url=None, desc=None, codecs= _defaultcodecs):$/;"	m	class:Application
+__init__	lib/aem/aemcodecs.py	/^	def __init__(self):$/;"	m	class:Codecs
+__init__	lib/aem/aemcodecs.py	/^	def __init__(self):$/;"	m	class:UnitTypeCodecs
+__init__	lib/aem/aemcodecs.py	/^	def __init__(self, code):$/;"	m	class:_Ordinal
+__init__	lib/aem/aemcodecs.py	/^	def __init__(self, range):$/;"	m	class:_Range
+__init__	lib/aem/aemconnect.py	/^	def __init__(self, errornumber, apppath):$/;"	m	class:CantLaunchApplicationError
+__init__	lib/aem/aemreference.py	/^	def __init__(self):$/;"	m	class:ReferenceRoot
+__init__	lib/aem/aemreference.py	/^	def __init__(self):$/;"	m	class:_CollectComparable
+__init__	lib/aem/aemreference.py	/^	def __init__(self, container, key):$/;"	m	class:Specifier
+__init__	lib/aem/aemreference.py	/^	def __init__(self, container, key, keyname):$/;"	m	class:InsertionSpecifier
+__init__	lib/aem/aemreference.py	/^	def __init__(self, desc, codecs):$/;"	m	class:DeferredSpecifier
+__init__	lib/aem/aemreference.py	/^	def __init__(self, operand1, operand2):$/;"	m	class:_ComparisonTest
+__init__	lib/aem/aemreference.py	/^	def __init__(self, operands):$/;"	m	class:_LogicalTest
+__init__	lib/aem/aemreference.py	/^	def __init__(self, rootObj):$/;"	m	class:CustomRoot
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container):$/;"	m	class:AllElements
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container):$/;"	m	class:UnkeyedElements
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key):$/;"	m	class:ElementsByFilter
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key):$/;"	m	class:ElementsByRange
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key):$/;"	m	class:_PositionSpecifier
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key):$/;"	m	class:_SingleElement
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key, keyname):$/;"	m	class:ElementByOrdinal
+__init__	lib/aem/aemreference.py	/^	def __init__(self, wantcode, container, key, keyname):$/;"	m	class:ElementByRelativePosition
+__init__	lib/aem/aemsend.py	/^	def __init__(self, address, event, params={}, atts={},$/;"	m	class:Event
+__init__	lib/aem/aemsend.py	/^	def __init__(self, number, message='', raw=None):$/;"	m	class:EventError
+__init__	lib/aem/findapp.py	/^	def __init__(self, name):$/;"	m	class:ApplicationNotFoundError
+__init__	lib/aem/mactypes.py	/^	def __init__(self, path):$/;"	m	class:Alias
+__init__	lib/aem/mactypes.py	/^	def __init__(self, path):$/;"	m	class:File
+__init__	lib/aem/mactypes.py	/^	def __init__(self, value, type):$/;"	m	class:Units
+__init__	lib/aem/typewrappers.py	/^	def __init__(self, code):$/;"	m	class:AETypeBase
+__init__	lib/appscript/genericreference.py	/^	def __init__(self, call):$/;"	m	class:GenericReference
+__init__	lib/appscript/keywordwrapper.py	/^	def __init__(self, name): $/;"	m	class:Keyword
+__init__	lib/appscript/reference.py	/^	def __init__(self, aemapplicationclass, constructor, identifier, terms):$/;"	m	class:AppData
+__init__	lib/appscript/reference.py	/^	def __init__(self, appclass):$/;"	m	class:GenericApp
+__init__	lib/appscript/reference.py	/^	def __init__(self, appdata):$/;"	m	class:_Base
+__init__	lib/appscript/reference.py	/^	def __init__(self, appdata, aemreference):$/;"	m	class:Reference
+__init__	lib/appscript/reference.py	/^	def __init__(self, command, parameters, realerror, codecs):$/;"	m	class:CommandError
+__init__	lib/appscript/reference.py	/^	def __init__(self, name=None, id=None, creator=None, pid=None, url=None, aemapp=None, terms=True):$/;"	m	class:Application
+__init__	lib/appscript/reference.py	/^	def __init__(self, parentref, name, code, arginfo):$/;"	m	class:Command
+__init__	lib/appscript/referencerenderer.py	/^	def __init__(self, appdata, nested=False):$/;"	m	class:_Formatter
+__init__	lib/appscript/terminologyparser.py	/^	def __init__(self):$/;"	m	class:Parser
+__init__	lib/osax.py	/^	def __init__(self, osaxname='StandardAdditions', name=None, id=None, creator=None, pid=None, url=None, aemapp=None, terms=True):$/;"	m	class:OSAX
+__int__	lib/aem/aemconnect.py	/^	def __int__(self):$/;"	m	class:CantLaunchApplicationError	file:
+__int__	lib/aem/aemsend.py	/^	def __int__(self):$/;"	m	class:EventError	file:
+__int__	lib/aem/mactypes.py	/^	def __int__(self):$/;"	m	class:Units	file:
+__int__	lib/appscript/reference.py	/^	def __int__(self):$/;"	m	class:CommandError	file:
+__iter__	lib/appscript/reference.py	/^	def __iter__(self): # dummy-proof$/;"	m	class:Reference	file:
+__le__	lib/appscript/genericreference.py	/^	def __le__(self, i):$/;"	m	class:GenericReference	file:
+__lt__	lib/appscript/genericreference.py	/^	def __lt__(self, i):$/;"	m	class:GenericReference	file:
+__ne__	lib/aem/__init__.py	/^	def __ne__(self, val):$/;"	m	class:Application	file:
+__ne__	lib/aem/aemreference.py	/^	def __ne__(self, v):$/;"	m	class:Query	file:
+__ne__	lib/aem/mactypes.py	/^	def __ne__(self, val):$/;"	m	class:Units	file:
+__ne__	lib/aem/mactypes.py	/^	def __ne__(self, val):$/;"	m	class:_Base	file:
+__ne__	lib/aem/typewrappers.py	/^	def __ne__(self, val):$/;"	m	class:AETypeBase	file:
+__ne__	lib/appscript/genericreference.py	/^	def __ne__(self, i):$/;"	m	class:GenericReference	file:
+__ne__	lib/appscript/keywordwrapper.py	/^	def __ne__(self, val):$/;"	m	class:Keyword	file:
+__ne__	lib/appscript/reference.py	/^	def __ne__(self, val):$/;"	m	class:Reference	file:
+__nonzero__	lib/appscript/keywordwrapper.py	/^	def __nonzero__(self):$/;"	m	class:Keyword	file:
+__repr__	lib/aem/__init__.py	/^	def __repr__(self):$/;"	m	class:Application	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:AllElements	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:CustomRoot	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:DeferredSpecifier	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:ElementByOrdinal	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:ElementByRelativePosition	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:ElementsByFilter	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:ElementsByRange	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:InsertionSpecifier	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:NOT	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:ReferenceRoot	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:UnkeyedElements	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:_ComparisonTest	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:_LogicalTest	file:
+__repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:_PositionSpecifier	file:
+__repr__	lib/aem/aemsend.py	/^	def __repr__(self):$/;"	m	class:EventError	file:
+__repr__	lib/aem/mactypes.py	/^	def __repr__(self):$/;"	m	class:Alias	file:
+__repr__	lib/aem/mactypes.py	/^	def __repr__(self):$/;"	m	class:File	file:
+__repr__	lib/aem/mactypes.py	/^	def __repr__(self):$/;"	m	class:Units	file:
+__repr__	lib/aem/typewrappers.py	/^	def __repr__(self):$/;"	m	class:AETypeBase	file:
+__repr__	lib/appscript/genericreference.py	/^	def __repr__(self):$/;"	m	class:GenericReference	file:
+__repr__	lib/appscript/keywordwrapper.py	/^	def __repr__(self): $/;"	m	class:Keyword	file:
+__repr__	lib/appscript/keywordwrapper.py	/^	def __repr__(self):$/;"	m	class:_KeywordShim	file:
+__repr__	lib/appscript/reference.py	/^	def __repr__(self): # references display as themselves$/;"	m	class:Reference	file:
+__repr__	lib/appscript/reference.py	/^	def __repr__(self):$/;"	m	class:Command	file:
+__repr__	lib/appscript/reference.py	/^	def __repr__(self):$/;"	m	class:CommandError	file:
+__str__	lib/aem/aemconnect.py	/^	def __str__(self):$/;"	m	class:CantLaunchApplicationError	file:
+__str__	lib/aem/aemsend.py	/^	def __str__(self):$/;"	m	class:EventError	file:
+__str__	lib/aem/findapp.py	/^	def __str__(self):$/;"	m	class:ApplicationNotFoundError	file:
+__str__	lib/aem/mactypes.py	/^	def __str__(self):$/;"	m	class:Units	file:
+__str__	lib/appscript/reference.py	/^	def __str__(self):$/;"	m	class:CommandError	file:
+__str__	lib/osax.py	/^	def __str__(self):$/;"	m	class:OSAX	file:
+_defaultpacker	lib/aem/aemcodecs.py	/^	def _defaultpacker(self, units, code): $/;"	m	class:UnitTypeCodecs
+_defaultunpacker	lib/aem/aemcodecs.py	/^	def _defaultunpacker(self, desc, name):$/;"	m	class:UnitTypeCodecs
+_displayhelp	lib/appscript/reference.py	/^	def _displayhelp(self, flags, ref):$/;"	m	class:AppData
+_errorinfo	lib/aem/aemsend.py	/^	def _errorinfo(self, key):$/;"	m	class:EventError
+_errorinfo	lib/appscript/reference.py	/^	def _errorinfo(self, key):$/;"	m	class:CommandError
+_errormessage	lib/appscript/reference.py	/^	def _errormessage(self):$/;"	m	class:CommandError
+_findapp	lib/aem/findapp.py	/^def _findapp(name=None, id=None, creator='????'):$/;"	f
+_format	lib/appscript/referencerenderer.py	/^	def _format(self, val):$/;"	m	class:_Formatter
+_help	lib/osax.py	/^		def _help(*args):$/;"	f	function:OSAX.__init__
+_inithelpagent	lib/appscript/reference.py	/^	def _inithelpagent(self):$/;"	m	class:AppData
+_kNoPath	lib/aem/mactypes.py	/^class _kNoPath: pass$/;"	c
+_launchapplication	lib/aem/aemconnect.py	/^def _launchapplication(path, event):$/;"	f
+_makereferencetable	lib/appscript/terminology.py	/^def _makereferencetable(properties, elements, commands):$/;"	f
+_maketypetable	lib/appscript/terminology.py	/^def _maketypetable(classes, enums, properties):$/;"	f
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:AllElements
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:ElementsByFilter
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:ElementsByRange
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:Property
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:UserProperty
+_packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:_SingleElement
+_packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:CustomRoot
+_packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:InsertionSpecifier
+_packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:ReferenceRoot
+_packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:_PositionSpecifier
+_packuint32	lib/appscript/reference.py	/^def _packuint32(n): # used to pack csig attributes$/;"	f
+_realref	lib/aem/aemreference.py	/^	def _realref(self):$/;"	m	class:DeferredSpecifier
+_resolverangeboundary	lib/appscript/reference.py	/^	def _resolverangeboundary(self, selector, valueifnone): # used by __getitem__() below$/;"	m	class:Reference
+_setrelaunchmode	lib/appscript/reference.py	/^	def _setrelaunchmode(self, mode): # mode = 'never', 'limited' or 'always'$/;"	m	class:Reference
+_setrelaunchmode	lib/appscript/reference.py	/^	def _setrelaunchmode(self, mode):$/;"	m	class:AppData
+_write	lib/appscript/reference.py	/^	def _write(self, s):$/;"	m	class:AppData
+aborttransaction	lib/aem/__init__.py	/^	def aborttransaction(self):$/;"	m	class:Application
+aborttransaction	lib/appscript/reference.py	/^	def aborttransaction(self):$/;"	m	class:Application
+addtypes	lib/aem/aemcodecs.py	/^	def addtypes(self, typedefs):$/;"	m	class:UnitTypeCodecs
+addunittypes	lib/aem/aemcodecs.py	/^	def addunittypes(self, typedefs):$/;"	m	class:Codecs
+aetesforapp	lib/appscript/terminology.py	/^def aetesforapp(aemapp):$/;"	f
+after	lib/appscript/referencerenderer.py	/^	def after(self):$/;"	m	class:_Formatter
+and	lib/appscript/terminology.py	/^_typebyname = {} # used to encode class and enumerator keywords$/;"	c
+any	lib/appscript/referencerenderer.py	/^	def any(self):$/;"	m	class:_Formatter
+app	lib/appscript/referencerenderer.py	/^	def app(self):$/;"	m	class:_Formatter
+aulttables	lib/appscript/reference.py	/^			self._terms = terminology.defaulttables$/;"	f	function:AppData.connect
+aulttables	lib/appscript/terminology.py	/^defaulttables = _maketypetable([], [], []) + _makereferencetable([], [], []) # (typebycode, typebyname, referencebycode, referencebyname)$/;"	f
+aultterminology	lib/appscript/terminology.py	/^for _, enumerators in defaultterminology.enumerations:$/;"	f
+aultterminology	lib/appscript/terminology.py	/^for name, code in defaultterminology.elements:$/;"	f
+aultterminology	lib/appscript/terminology.py	/^for name, code in defaultterminology.properties:$/;"	f
+aultterminology	lib/appscript/terminology.py	/^for name, code, params in defaultterminology.commands:$/;"	f
+aultterminology	lib/appscript/terminology.py	/^import defaultterminology$/;"	f
+auto_save	iwork_auto_save.py	/^class auto_save(threading.Thread):$/;"	c
+before	lib/appscript/referencerenderer.py	/^	def before(self):$/;"	m	class:_Formatter
+beginning	lib/appscript/referencerenderer.py	/^	def beginning(self):$/;"	m	class:_Formatter
+beginswith	lib/aem/aemreference.py	/^	def beginswith(self, val):$/;"	m	class:_PositionSpecifier
+beginswith	lib/appscript/reference.py	/^	def beginswith(self, operand):$/;"	m	class:Reference
+beginswith	lib/appscript/referencerenderer.py	/^	def beginswith(self, sel):$/;"	m	class:_Formatter
+begintransaction	lib/aem/__init__.py	/^	def begintransaction(self, session=None):$/;"	m	class:Application
+begintransaction	lib/appscript/reference.py	/^	def begintransaction(self, session=None):$/;"	m	class:Application
+buildtablesforaetes	lib/appscript/terminologyparser.py	/^def buildtablesforaetes(aetes):$/;"	f
+bycreator	lib/aem/findapp.py	/^def bycreator(creator):$/;"	f
+byfilter	lib/aem/aemreference.py	/^	def byfilter(self, expression):$/;"	m	class:_MultipleElements
+byfilter	lib/appscript/referencerenderer.py	/^	def byfilter(self, sel):$/;"	m	class:_Formatter
+byid	lib/aem/aemreference.py	/^	def byid(self, id):$/;"	m	class:_MultipleElements
+byid	lib/aem/findapp.py	/^def byid(id):$/;"	f
+byid	lib/appscript/referencerenderer.py	/^	def byid(self, sel):$/;"	m	class:_Formatter
+byindex	lib/aem/aemreference.py	/^	def byindex(self, index):$/;"	m	class:_MultipleElements
+byindex	lib/appscript/referencerenderer.py	/^	def byindex(self, sel):$/;"	m	class:_Formatter
+byname	lib/aem/aemreference.py	/^	def byname(self, name):$/;"	m	class:_MultipleElements
+byname	lib/aem/findapp.py	/^def byname(name):$/;"	f
+byrange	lib/aem/aemreference.py	/^	def byrange(self, start, stop):$/;"	m	class:_MultipleElements
+byrange	lib/appscript/referencerenderer.py	/^	def byrange(self, sel1, sel2):$/;"	m	class:_Formatter
+choose_app	a.py	/^def choose_app():$/;"	f
+choose_app	iwork_auto_save.py	/^def choose_app():$/;"	f
+con	lib/appscript/referencerenderer.py	/^	def con(self):$/;"	m	class:_Formatter
+connect	lib/appscript/reference.py	/^	def connect(self):$/;"	m	class:AppData
+contains	lib/aem/aemreference.py	/^	def contains(self, val):$/;"	m	class:_PositionSpecifier
+contains	lib/appscript/reference.py	/^	def contains(self, operand):$/;"	m	class:Reference
+contains	lib/appscript/referencerenderer.py	/^	def contains(self, sel):$/;"	m	class:_Formatter
+definition	lib/appscript/defaultterminology.py	/^		('item', 'cobj'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
+definition	lib/appscript/defaultterminology.py	/^		('items', 'cobj'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
+definition	lib/appscript/defaultterminology.py	/^		('properties', 'pALL'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
+desc	lib/aem/mactypes.py	/^	def desc(self):$/;"	m	class:File
+doesnotbeginwith	lib/appscript/reference.py	/^	def doesnotbeginwith(self, operand):$/;"	m	class:Reference
+doesnotcontain	lib/appscript/reference.py	/^	def doesnotcontain(self, operand):$/;"	m	class:Reference
+doesnotendwith	lib/appscript/reference.py	/^	def doesnotendwith(self, operand):$/;"	m	class:Reference
+dontcacheunpackedspecifiers	lib/aem/aemcodecs.py	/^	def dontcacheunpackedspecifiers(self):$/;"	m	class:Codecs
+dump	lib/appscript/terminology.py	/^def dump(apppath, modulepath):$/;"	f
+elements	lib/aem/aemreference.py	/^	def elements(self, elementcode):$/;"	m	class:_PositionSpecifier
+elements	lib/appscript/referencerenderer.py	/^	def elements(self, code):$/;"	m	class:_Formatter
+end	lib/appscript/referencerenderer.py	/^	def end(self):$/;"	m	class:_Formatter
+endswith	lib/aem/aemreference.py	/^	def endswith(self, val):$/;"	m	class:_PositionSpecifier
+endswith	lib/appscript/reference.py	/^	def endswith(self, operand):$/;"	m	class:Reference
+endswith	lib/appscript/referencerenderer.py	/^	def endswith(self, sel):$/;"	m	class:_Formatter
+endtransaction	lib/aem/__init__.py	/^	def endtransaction(self):$/;"	m	class:Application
+endtransaction	lib/appscript/reference.py	/^	def endtransaction(self):$/;"	m	class:Application
+eq	lib/aem/aemreference.py	/^	def eq(self, val):$/;"	m	class:_PositionSpecifier
+eq	lib/appscript/referencerenderer.py	/^	def eq(self, sel):$/;"	m	class:_Formatter
+errormessage	lib/aem/aemsend.py	/^	def errormessage(self):$/;"	m	class:EventError
+es	lib/appscript/terminology.py	/^			+ _makereferencetable(terms.properties, terms.elements, terms.commands)$/;"	c	function:tablesformodule
+es	lib/appscript/terminology.py	/^	classes, enums, properties, elements, commands = buildtablesforaetes(aetes)$/;"	c	function:tablesforaetes
+es	lib/appscript/terminology.py	/^	for klass, table in [(AEEnum, enums), (AEType, properties), (AEType, classes)]: # note: packing properties as AEProp causes problems when the same name is used for both a class and a property, and the property's definition masks the class's one (e.g. Finder's 'file'); if an AEProp is passed where an AEType is expected, it can cause an error as it's not what the receiving app expects. (Whereas they may be more tolerant of an AEType being passed where an AEProp is expected.) Also, note that AppleScript always seems to pack property names as typeType, so we should be ok following its lead here.$/;"	c	function:_maketypetable
+es	lib/appscript/terminology.py	/^	return _maketypetable(classes, enums, properties) + _makereferencetable(properties, elements, commands)$/;"	c	function:tablesforaetes
+es	lib/appscript/terminologyparser.py	/^				self.classes.append((name, code))$/;"	c	function:Parser.parseclass/inition
+es	lib/appscript/terminologyparser.py	/^			self.classes.append((self._spareclassnames[code], code))$/;"	c	function:Parser.parse
+es	lib/appscript/terminologyparser.py	/^		return (self.classes, self.enumerators, self.properties, self.elements, list(self.commands.values()))$/;"	c	function:Parser.parse
+es	lib/appscript/terminologyparser.py	/^		self.classes = []$/;"	c	function:Parser.__init__
+event	lib/aem/__init__.py	/^	def event(self, event, params={}, atts={}, returnid=kae.kAutoGenerateReturnID, codecs=None):$/;"	m	class:Application
+first	lib/appscript/referencerenderer.py	/^	def first(self):$/;"	m	class:_Formatter
+fullyunpackobjectspecifier	lib/aem/aemcodecs.py	/^	def fullyunpackobjectspecifier(self, desc):$/;"	m	class:Codecs
+ge	lib/aem/aemreference.py	/^	def ge(self, val):$/;"	m	class:_PositionSpecifier
+ge	lib/appscript/referencerenderer.py	/^	def ge(self, sel):$/;"	m	class:_Formatter
+get_app_name	iwork_auto_save.py	/^def get_app_name(filename):$/;"	f
+gt	lib/aem/aemreference.py	/^	def gt(self, val):$/;"	m	class:_PositionSpecifier
+gt	lib/appscript/referencerenderer.py	/^	def gt(self, sel):$/;"	m	class:_Formatter
+help	lib/appscript/reference.py	/^	def help(self, flags, ref):$/;"	m	class:AppData
+help	lib/appscript/reference.py	/^	def help(self, flags='-t'): # add a help() method to all concrete app, reference and command objects$/;"	m	class:_Base
+if_app_on	iwork_auto_save.py	/^class if_app_on(threading.Thread):$/;"	c
+ined	lib/aem/aemcodecs.py	/^		elif keyform == 'usrp': # user-defined property specifier$/;"	f	function:Codecs.fullyunpackobjectspecifier
+ined	lib/aem/aemreference.py	/^	_kBy = 'property'$/;"	m	class:Property
+ined	lib/appscript/reference.py	/^			else: # user-defined key (normally a string)$/;"	f	function:AppData.packdict
+inition	lib/appscript/terminology.py	/^			referencebycode[kind+code] = (kind, name) # to handle synonyms, if same code appears more than once then use name from last definition in list$/;"	f	function:_makereferencetable
+inition	lib/appscript/terminology.py	/^			referencebyname[name] = (kind, code) # to handle synonyms, if same name appears more than once then use code from first definition in list$/;"	f	function:_makereferencetable
+inition	lib/appscript/terminology.py	/^			typebycode[code] = Keyword(name) # to handle synonyms, if same code appears more than once then use name from last definition in list$/;"	m	class:_maketypetable/es
+inition	lib/appscript/terminology.py	/^			typebyname[name] = klass(code) # to handle synonyms, if same name appears more than once then use code from first definition in list$/;"	m	class:_maketypetable/es
+inition	lib/appscript/terminology.py	/^	for name, code, args in commands[::-1]: # to handle synonyms, if two commands have same name but different codes, only the first definition should be used (iterating over the commands list in reverse ensures this)$/;"	f	function:_makereferencetable
+inition	lib/appscript/terminologyparser.py	/^			if propcode != kae.pInherits: # not a superclass definition (see kAEInheritedProperties)$/;"	f	function:Parser.parseclass
+integer	lib/appscript/terminologyparser.py	/^	def integer(self):$/;"	m	class:Parser
+isin	lib/aem/aemreference.py	/^	def isin(self, val):$/;"	m	class:_PositionSpecifier
+isin	lib/appscript/reference.py	/^	def isin(self, operand):$/;"	m	class:Reference
+isin	lib/appscript/referencerenderer.py	/^	def isin(self, sel):$/;"	m	class:_Formatter
+isnotin	lib/appscript/reference.py	/^	def isnotin(self, operand):$/;"	m	class:Reference
+isrunning	lib/appscript/reference.py	/^	def isrunning(self):$/;"	m	class:Reference
+its	lib/appscript/referencerenderer.py	/^	def its(self):$/;"	m	class:_Formatter
+killus	iwork_auto_save.py	/^def killus():$/;"	f
+last	lib/appscript/referencerenderer.py	/^	def last(self):$/;"	m	class:_Formatter
+launch	lib/appscript/reference.py	/^	def launch(self):$/;"	m	class:Application
+launchapp	lib/aem/aemconnect.py	/^def launchapp(path):$/;"	f
+le	lib/aem/aemreference.py	/^	def le(self, val):$/;"	m	class:_PositionSpecifier
+le	lib/appscript/referencerenderer.py	/^	def le(self, sel):$/;"	m	class:_Formatter
+localapp	lib/aem/aemconnect.py	/^def localapp(path):$/;"	f
+localappbypid	lib/aem/aemconnect.py	/^def localappbypid(pid):$/;"	f
+lt	lib/aem/aemreference.py	/^	def lt(self, val):$/;"	m	class:_PositionSpecifier
+lt	lib/appscript/referencerenderer.py	/^	def lt(self, sel):$/;"	m	class:_Formatter
+main	iwork_auto_save.py	/^def main():$/;"	f
+makewithdesc	lib/aem/mactypes.py	/^	def makewithdesc(klass, desc):$/;"	m	class:Alias
+makewithdesc	lib/aem/mactypes.py	/^	def makewithdesc(klass, desc):$/;"	m	class:File
+makewithhfspath	lib/aem/mactypes.py	/^	def makewithhfspath(klass, path):$/;"	m	class:Alias
+makewithhfspath	lib/aem/mactypes.py	/^	def makewithhfspath(klass, path):$/;"	m	class:File
+makewithurl	lib/aem/mactypes.py	/^	def makewithurl(klass, url):$/;"	m	class:Alias
+makewithurl	lib/aem/mactypes.py	/^	def makewithurl(klass, url):$/;"	m	class:File
+method	lib/aem/mactypes.py	/^	makewithdesc = classmethod(makewithdesc)$/;"	c	class:Alias
+method	lib/aem/mactypes.py	/^	makewithdesc = classmethod(makewithdesc)$/;"	c	class:File
+method	lib/aem/mactypes.py	/^	makewithhfspath = classmethod(makewithhfspath)$/;"	c	class:Alias
+method	lib/aem/mactypes.py	/^	makewithhfspath = classmethod(makewithhfspath)$/;"	c	class:File
+method	lib/aem/mactypes.py	/^	makewithurl = classmethod(makewithurl)$/;"	c	class:Alias
+method	lib/aem/mactypes.py	/^	makewithurl = classmethod(makewithurl)$/;"	c	class:File
+middle	lib/appscript/referencerenderer.py	/^	def middle(self):$/;"	m	class:_Formatter
+name	lib/appscript/terminologyparser.py	/^				if flags & 1: # indicates class name is plural (see kAESpecialClassProperties)$/;"	c	function:Parser.parseclass/inition
+name	lib/appscript/terminologyparser.py	/^	def name(self):$/;"	m	class:Parser
+ne	lib/aem/aemreference.py	/^	def ne(self, val):$/;"	m	class:_PositionSpecifier
+ne	lib/appscript/referencerenderer.py	/^	def ne(self, sel):$/;"	m	class:_Formatter
+next	lib/aem/aemreference.py	/^	def next(self, elementcode):$/;"	m	class:_PositionSpecifier
+next	lib/appscript/reference.py	/^	def next(self, klass):$/;"	m	class:Reference
+next	lib/appscript/referencerenderer.py	/^	def next(self, sel):$/;"	m	class:_Formatter
+open_app	iwork_auto_save.py	/^def open_app(appname):$/;"	f
+open_file	iwork_auto_save.py	/^def open_file(filename):$/;"	f
+pack	lib/aem/aemcodecs.py	/^	def pack(self, data):$/;"	m	class:Codecs
+pack	lib/aem/aemcodecs.py	/^	def pack(self, val):$/;"	m	class:UnitTypeCodecs
+pack	lib/appscript/reference.py	/^	def pack(self, data):$/;"	m	class:AppData
+packabsoluteordinal	lib/aem/aemreference.py	/^	def packabsoluteordinal(code): $/;"	f
+packalias	lib/aem/aemcodecs.py	/^	def packalias(self, val):$/;"	m	class:Codecs
+packbool	lib/aem/aemcodecs.py	/^	def packbool(self, val):$/;"	m	class:Codecs
+packdate	lib/aem/aemcodecs.py	/^	def packdate(self, val):$/;"	m	class:Codecs
+packdatetime	lib/aem/aemcodecs.py	/^	def packdatetime(self, val):$/;"	m	class:Codecs
+packdesc	lib/aem/aemcodecs.py	/^	def packdesc(self, val):$/;"	m	class:Codecs
+packdict	lib/aem/aemcodecs.py	/^	def packdict(self, val):$/;"	m	class:Codecs
+packdict	lib/appscript/reference.py	/^	def packdict(self, val):$/;"	m	class:AppData
+packenum	lib/aem/aemcodecs.py	/^	def packenum(self, val): $/;"	m	class:Codecs
+packenum	lib/aem/aemreference.py	/^	def packenum(code):$/;"	f
+packfloat	lib/aem/aemcodecs.py	/^	def packfloat(self, val):$/;"	m	class:Codecs
+packkey	lib/aem/aemcodecs.py	/^	def packkey(self, val): $/;"	m	class:Codecs
+packlist	lib/aem/aemcodecs.py	/^	def packlist(self, val):$/;"	m	class:Codecs
+packlistas	lib/aem/aemreference.py	/^def packlistas(type, lst):$/;"	f
+packlong	lib/aem/aemcodecs.py	/^	def packlong(self, val):$/;"	m	class:Codecs
+packnone	lib/aem/aemcodecs.py	/^	def packnone(self, val):$/;"	m	class:Codecs
+packprop	lib/aem/aemcodecs.py	/^	def packprop(self, val): $/;"	m	class:Codecs
+packstr	lib/aem/aemcodecs.py	/^	def packstr(self, val):$/;"	m	class:Codecs
+packstructtime	lib/aem/aemcodecs.py	/^	def packstructtime(self, val):$/;"	m	class:Codecs
+packtime	lib/aem/aemcodecs.py	/^	def packtime(self, val):$/;"	m	class:Codecs
+packtype	lib/aem/aemcodecs.py	/^	def packtype(self, val):$/;"	m	class:Codecs
+packtype	lib/aem/aemreference.py	/^	def packtype(code):$/;"	f
+packunicodetext	lib/aem/aemcodecs.py	/^	def packunicodetext(self, val):$/;"	m	class:Codecs
+packunknown	lib/aem/aemcodecs.py	/^	def packunknown(self, data):$/;"	m	class:Codecs
+parse	lib/appscript/terminologyparser.py	/^	def parse(self, aetes):$/;"	m	class:Parser
+parseclass	lib/appscript/terminologyparser.py	/^	def parseclass(self):$/;"	m	class:Parser
+parsecommand	lib/appscript/terminologyparser.py	/^	def parsecommand(self):$/;"	m	class:Parser
+parsecomparison	lib/appscript/terminologyparser.py	/^	def parsecomparison(self): # comparison info isn't used$/;"	m	class:Parser
+parseenumeration	lib/appscript/terminologyparser.py	/^	def parseenumeration(self): $/;"	m	class:Parser
+parsesuite	lib/appscript/terminologyparser.py	/^	def parsesuite(self):$/;"	m	class:Parser
+path	lib/aem/mactypes.py	/^	def path(self):$/;"	m	class:File
+previous	lib/aem/aemreference.py	/^	def previous(self, elementcode):$/;"	m	class:_PositionSpecifier
+previous	lib/appscript/reference.py	/^	def previous(self, klass):$/;"	m	class:Reference
+previous	lib/appscript/referencerenderer.py	/^	def previous(self, sel):$/;"	m	class:_Formatter
+processexistsfordesc	lib/aem/aemconnect.py	/^def processexistsfordesc(desc):$/;"	f
+processexistsforpath	lib/aem/aemconnect.py	/^def processexistsforpath(path):$/;"	f
+processexistsforpid	lib/aem/aemconnect.py	/^def processexistsforpid(pid):$/;"	f
+processexistsforurl	lib/aem/aemconnect.py	/^def processexistsforurl(url):$/;"	f
+property	lib/aem/aemreference.py	/^	def property(self, propertycode):$/;"	m	class:_PositionSpecifier
+property	lib/appscript/referencerenderer.py	/^	def property(self, code):$/;"	m	class:_Formatter
+reconnect	lib/aem/__init__.py	/^	def reconnect(self):$/;"	m	class:Application
+referencebycode	lib/appscript/reference.py	/^	def referencebycode(self):$/;"	m	class:AppData
+referencebyname	lib/appscript/reference.py	/^	def referencebyname(self):$/;"	m	class:AppData
+remoteapp	lib/aem/aemconnect.py	/^def remoteapp(url):$/;"	f
+renderreference	lib/appscript/referencerenderer.py	/^def renderreference(appdata, aemreference, nested=False):$/;"	f
+run	iwork_auto_save.py	/^    def run(self):$/;"	m	class:auto_save
+run	iwork_auto_save.py	/^    def run(self):$/;"	m	class:if_app_on
+s	lib/appscript/terminology.py	/^	for name, code in defs:$/;"	f	function:s
+s	lib/appscript/terminology.py	/^for defs in [defaultterminology.types, defaultterminology.properties]:$/;"	f
+send	lib/aem/aemsend.py	/^	def send(self, timeout= kae.kAEDefaultTimeout, flags= kae.kAECanSwitchLayer + kae.kAEWaitReply):$/;"	m	class:Event
+sendappleevent	lib/aem/aemsend.py	/^def sendappleevent(evt, flags, timeout):$/;"	f
+tablesforaetes	lib/appscript/terminology.py	/^def tablesforaetes(aetes):$/;"	f
+tablesforapp	lib/appscript/terminology.py	/^def tablesforapp(aemapp):$/;"	f
+tablesformodule	lib/appscript/terminology.py	/^def tablesformodule(terms):$/;"	f
+target	lib/appscript/reference.py	/^	def target(self):$/;"	m	class:AppData
+typebycode	lib/appscript/reference.py	/^	def typebycode(self):$/;"	m	class:AppData
+typebyname	lib/appscript/reference.py	/^	def typebyname(self):$/;"	m	class:AppData
+unpack	lib/aem/aemcodecs.py	/^	def unpack(self, desc):$/;"	m	class:Codecs
+unpack	lib/aem/aemcodecs.py	/^	def unpack(self, desc):$/;"	m	class:UnitTypeCodecs
+unpackabsoluteordinal	lib/aem/aemcodecs.py	/^	def unpackabsoluteordinal(self, desc):$/;"	m	class:Codecs
+unpackaelist	lib/aem/aemcodecs.py	/^	def unpackaelist(self, desc):$/;"	m	class:Codecs
+unpackaerecord	lib/aem/aemcodecs.py	/^	def unpackaerecord(self, desc):$/;"	m	class:Codecs
+unpackaerecord	lib/appscript/reference.py	/^	def unpackaerecord(self, desc):$/;"	m	class:AppData
+unpackalias	lib/aem/aemcodecs.py	/^	def unpackalias(self, desc):$/;"	m	class:Codecs
+unpackapplicationbydesc	lib/appscript/reference.py	/^	def unpackapplicationbydesc(self, desc):$/;"	m	class:AppData
+unpackapplicationbyid	lib/appscript/reference.py	/^	def unpackapplicationbyid(self, desc):$/;"	m	class:AppData
+unpackapplicationbypid	lib/appscript/reference.py	/^	def unpackapplicationbypid(self, desc):$/;"	m	class:AppData
+unpackapplicationbysignature	lib/appscript/reference.py	/^	def unpackapplicationbysignature(self, desc):$/;"	m	class:AppData
+unpackapplicationbyurl	lib/appscript/reference.py	/^	def unpackapplicationbyurl(self, desc):$/;"	m	class:AppData
+unpackboolean	lib/aem/aemcodecs.py	/^	def unpackboolean(self, desc):$/;"	m	class:Codecs
+unpackchar	lib/aem/aemcodecs.py	/^	def unpackchar(self, desc):$/;"	m	class:Codecs
+unpackcompdescriptor	lib/aem/aemcodecs.py	/^	def unpackcompdescriptor(self, desc):$/;"	m	class:Codecs
+unpackcompdescriptor	lib/appscript/reference.py	/^	def unpackcompdescriptor(self, desc):$/;"	m	class:AppData
+unpackenumeration	lib/aem/aemcodecs.py	/^	def unpackenumeration(self, desc):$/;"	m	class:Codecs
+unpackfalse	lib/aem/aemcodecs.py	/^	def unpackfalse(self, desc):$/;"	m	class:Codecs
+unpackfileurl	lib/aem/aemcodecs.py	/^	def unpackfileurl(self, desc):$/;"	m	class:Codecs
+unpackfloat128	lib/aem/aemcodecs.py	/^	def unpackfloat128(self, desc):$/;"	m	class:Codecs
+unpackfloat32	lib/aem/aemcodecs.py	/^	def unpackfloat32(self, desc):$/;"	m	class:Codecs
+unpackfloat64	lib/aem/aemcodecs.py	/^	def unpackfloat64(self, desc):$/;"	m	class:Codecs
+unpackinsertionloc	lib/aem/aemcodecs.py	/^	def unpackinsertionloc(self, desc):$/;"	m	class:Codecs
+unpackintltext	lib/aem/aemcodecs.py	/^	def unpackintltext(self, desc):$/;"	m	class:Codecs
+unpackkeyword	lib/aem/aemcodecs.py	/^	def unpackkeyword(self, desc):$/;"	m	class:Codecs
+unpackkeyword	lib/appscript/reference.py	/^	def unpackkeyword(self, desc):$/;"	m	class:AppData
+unpacklogicaldescriptor	lib/aem/aemcodecs.py	/^	def unpacklogicaldescriptor(self, desc):$/;"	m	class:Codecs
+unpacklongdatetime	lib/aem/aemcodecs.py	/^	def unpacklongdatetime(self, desc):$/;"	m	class:Codecs
+unpacknull	lib/aem/aemcodecs.py	/^	def unpacknull(self, desc):$/;"	m	class:Codecs
+unpackobjectspecifier	lib/aem/aemcodecs.py	/^	def unpackobjectspecifier(self, desc):$/;"	m	class:Codecs
+unpackproperty	lib/aem/aemcodecs.py	/^	def unpackproperty(self, desc):$/;"	m	class:Codecs
+unpackqdpoint	lib/aem/aemcodecs.py	/^	def unpackqdpoint(self, desc): $/;"	m	class:Codecs
+unpackqdrect	lib/aem/aemcodecs.py	/^	def unpackqdrect(self, desc):$/;"	m	class:Codecs
+unpackrangedescriptor	lib/aem/aemcodecs.py	/^	def unpackrangedescriptor(self, desc):$/;"	m	class:Codecs
+unpackreference	lib/appscript/reference.py	/^	def unpackreference(self, desc):$/;"	m	class:AppData
+unpackrgbcolor	lib/aem/aemcodecs.py	/^	def unpackrgbcolor(self, desc):$/;"	m	class:Codecs
+unpacksint16	lib/aem/aemcodecs.py	/^	def unpacksint16(self, desc):$/;"	m	class:Codecs
+unpacksint32	lib/aem/aemcodecs.py	/^	def unpacksint32(self, desc):$/;"	m	class:Codecs
+unpacksint64	lib/aem/aemcodecs.py	/^	def unpacksint64(self, desc):$/;"	m	class:Codecs
+unpackstyledtext	lib/aem/aemcodecs.py	/^	def unpackstyledtext(self, desc):$/;"	m	class:Codecs
+unpacktrue	lib/aem/aemcodecs.py	/^	def unpacktrue(self, desc):$/;"	m	class:Codecs
+unpacktype	lib/aem/aemcodecs.py	/^	def unpacktype(self, desc):$/;"	m	class:Codecs
+unpackuint16	lib/aem/aemcodecs.py	/^	def unpackuint16(self, desc):$/;"	m	class:Codecs
+unpackuint32	lib/aem/aemcodecs.py	/^	def unpackuint32(self, desc):$/;"	m	class:Codecs
+unpackuint64	lib/aem/aemcodecs.py	/^	def unpackuint64(self, desc):$/;"	m	class:Codecs
+unpackunicodetext	lib/aem/aemcodecs.py	/^	def unpackunicodetext(self, desc):$/;"	m	class:Codecs
+unpackunknown	lib/aem/aemcodecs.py	/^	def unpackunknown(self, desc):$/;"	m	class:Codecs
+unpackutf16externalrepresentation	lib/aem/aemcodecs.py	/^	def unpackutf16externalrepresentation(self, desc): $/;"	m	class:Codecs
+unpackutf8text	lib/aem/aemcodecs.py	/^	def unpackutf8text(self, desc):$/;"	m	class:Codecs
+unpackversion	lib/aem/aemcodecs.py	/^	def unpackversion(self, desc):$/;"	m	class:Codecs
+url	lib/aem/mactypes.py	/^	def url(self):$/;"	m	class:File
+userproperty	lib/aem/aemreference.py	/^	def userproperty(self, name):$/;"	m	class:_PositionSpecifier
+word	lib/appscript/terminologyparser.py	/^	def word(self):$/;"	m	class:LittleEndianParser
+word	lib/appscript/terminologyparser.py	/^	def word(self):$/;"	m	class:Parser

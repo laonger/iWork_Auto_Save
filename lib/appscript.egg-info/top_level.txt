@@ -1,0 +1,5 @@
+mactypes
+CarbonX
+aem
+appscript
+osax
