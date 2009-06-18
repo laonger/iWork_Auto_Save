@@ -4,6 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.7	//
+-PYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	-PYTHONPATH=$(DESTDIR)$(LIBDEST)  $(RUNSHARED) \\$/;"	m
+-PYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	-PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \\$/;"	m
 AEEnum	lib/aem/typewrappers.py	/^class AEEnum(AETypeBase):$/;"	c
 AEKey	lib/aem/typewrappers.py	/^class AEKey(AETypeBase):$/;"	c
 AEM_comparable	lib/aem/__init__.py	/^	def AEM_comparable(self):$/;"	m	class:Application
@@ -44,6 +46,14 @@ AND	lib/aem/aemreference.py	/^	def AND(self, operand2, *operands):$/;"	m	class:T
 AND	lib/aem/aemreference.py	/^class AND(_LogicalTest):$/;"	c
 AND	lib/appscript/reference.py	/^	def AND(self, *operands):$/;"	m	class:Reference
 AND	lib/appscript/referencerenderer.py	/^	def AND(self, *operands):$/;"	m	class:_Formatter
+AR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AR=		ar$/;"	m
+ASDLGEN	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^ASDLGEN=	$(srcdir)\/Parser\/asdl_c.py$/;"	m
+ASDLGEN_FILES	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^ASDLGEN_FILES=	$(srcdir)\/Parser\/asdl.py $(srcdir)\/Parser\/asdl_c.py$/;"	m
+AST_ASDL	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AST_ASDL=	$(srcdir)\/Parser\/Python.asdl$/;"	m
+AST_C	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AST_C=		$(AST_C_DIR)\/Python-ast.c$/;"	m
+AST_C_DIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AST_C_DIR=	$(srcdir)\/Python$/;"	m
+AST_H	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AST_H=		$(AST_H_DIR)\/Python-ast.h$/;"	m
+AST_H_DIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^AST_H_DIR=	$(srcdir)\/Include$/;"	m
 AS__eq__	lib/appscript/reference.py	/^	def AS__eq__(self, operand):$/;"	m	class:Reference
 AS__ge__	lib/appscript/reference.py	/^	def AS__ge__(self, operand):$/;"	m	class:Reference
 AS__gt__	lib/appscript/reference.py	/^	def AS__gt__(self, operand):$/;"	m	class:Reference
@@ -60,7 +70,28 @@ Application	lib/aem/__init__.py	/^class Application(Query):$/;"	c
 Application	lib/appscript/reference.py	/^class Application(Reference):$/;"	c
 ApplicationNotFoundError	lib/aem/findapp.py	/^class ApplicationNotFoundError(Exception):$/;"	c
 ApplicationRoot	lib/aem/aemreference.py	/^class ApplicationRoot(ReferenceRoot):$/;"	c
+ArgvCollector	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^    class ArgvCollector:$/;"	c	function:_get_argvemulator
+BASECFLAGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BASECFLAGS=	-arch ppc -arch i386 -isysroot \/Developer\/SDKs\/MacOSX10.4u.sdk  -fno-strict-aliasing -Wno-long-double -no-cpp-precomp -mno-fused-madd -fno-common -dynamic$/;"	m
+BASEMODLIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BASEMODLIBS=$/;"	m
+BINDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BINDIR=		$(exec_prefix)\/bin$/;"	m
+BINLIBDEST	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BINLIBDEST=	$(LIBDIR)\/python$(VERSION)$/;"	m
+BLDLIBRARY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BLDLIBRARY=     $/;"	m
+BLDSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BLDSHARED=	$(CC) $(LDFLAGS) -bundle -undefined dynamic_lookup$/;"	m
+BUILDEXE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BUILDEXE=	.exe$/;"	m
+BUILDPYTHON	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^BUILDPYTHON=	python$(BUILDEXE)$/;"	m
 BeginsWith	lib/aem/aemreference.py	/^class BeginsWith(_ComparisonTest):$/;"	c
+CC	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CC=		gcc$/;"	m
+CCSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CCSHARED=	$/;"	m
+CFLAGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CFLAGS=		$(BASECFLAGS) $(OPT) $(EXTRA_CFLAGS)$/;"	m
+CFLAGSFORSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CFLAGSFORSHARED=$(CCSHARED)$/;"	m
+CONFIGFILES	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CONFIGFILES=	configure configure.in acconfig.h pyconfig.h.in Makefile.pre.in$/;"	m
+CONFIG_ARGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CONFIG_ARGS=	 '-C' '--enable-framework' '--enable-universalsdk=\/Developer\/SDKs\/MacOSX10.4u.sdk' 'LDFLAGS=-g ' 'OPT=-g -O3 '$/;"	m
+CONFIG_FILES	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	CONFIG_FILES=Makefile.pre CONFIG_HEADERS= $(SHELL) config.status$/;"	m
+CONFINCLUDEDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CONFINCLUDEDIR=	$(exec_prefix)\/include$/;"	m
+CONFINCLUDEPY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CONFINCLUDEPY=	$(CONFINCLUDEDIR)\/python$(VERSION)$/;"	m
+COREPYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^COREPYTHONPATH=$(DESTPATH)$(SITEPATH)$(TESTPATH)$(MACHDEPPATH)$(EXTRAMACHDEPPATH)$(TKPATH)$/;"	m
+CPPFLAGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CPPFLAGS=	-I. -IInclude -I$(srcdir)\/Include $/;"	m
+CXX	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^CXX=		g++$/;"	m
 CantLaunchApplicationError	lib/aem/aemconnect.py	/^class CantLaunchApplicationError(Exception):$/;"	c
 Codecs	lib/aem/aemcodecs.py	/^class Codecs(object):$/;"	c
 Command	lib/appscript/reference.py	/^class Command(_Base):$/;"	c
@@ -68,7 +99,23 @@ CommandError	lib/appscript/reference.py	/^class CommandError(Exception):$/;"	c
 Contains	lib/aem/aemreference.py	/^class Contains(_ComparisonTest):$/;"	c
 CurrentContainer	lib/aem/aemreference.py	/^class CurrentContainer(ReferenceRoot):$/;"	c
 CustomRoot	lib/aem/aemreference.py	/^class CustomRoot(ReferenceRoot):$/;"	c
+DESTDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DESTDIRS=	$(exec_prefix) $(LIBDIR) $(BINLIBDEST) $(DESTSHARED)$/;"	m
+DESTLIB	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DESTLIB=$(LIBDEST)$/;"	m
+DESTPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DESTPATH=$/;"	m
+DESTSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DESTSHARED=	$(BINLIBDEST)\/lib-dynload$/;"	m
+DIRMODE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DIRMODE=	755$/;"	m
+DIST	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DIST=		$(DISTFILES) $(DISTDIRS)$/;"	m
+DISTDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DISTDIRS=	$(SUBDIRS) $(SUBDIRSTOO) Ext-dummy$/;"	m
+DISTFILES	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DISTFILES=	README ChangeLog $(CONFIGFILES)$/;"	m
+DLINCLDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DLINCLDIR=	.$/;"	m
+DLLLIBRARY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DLLLIBRARY=	$/;"	m
+DYNLOADFILE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^DYNLOADFILE=	dynload_shlib.o$/;"	m
 DeferredSpecifier	lib/aem/aemreference.py	/^class DeferredSpecifier(Query):	$/;"	c
+EXE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^EXE=		$/;"	m
+EXEMODE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^EXEMODE=	755$/;"	m
+EXTRAMACHDEPPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^EXTRAMACHDEPPATH=$(PLATMACPATH)$/;"	m
+EXTRAMACHDEPPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^EXTRAMACHDEPPATH=$/;"	m
+EXTRAPLATDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^EXTRAPLATDIR= $(PLATMACDIRS)$/;"	m
 ElementByID	lib/aem/aemreference.py	/^class ElementByID(_SingleElement):$/;"	c
 ElementByIndex	lib/aem/aemreference.py	/^class ElementByIndex(_SingleElement):$/;"	c
 ElementByName	lib/aem/aemreference.py	/^class ElementByName(_SingleElement):$/;"	c
@@ -80,38 +127,133 @@ EndsWith	lib/aem/aemreference.py	/^class EndsWith(_ComparisonTest):$/;"	c
 Equals	lib/aem/aemreference.py	/^class Equals(_ComparisonTest):$/;"	c
 Event	lib/aem/aemsend.py	/^class Event(object):$/;"	c
 EventError	lib/aem/aemsend.py	/^class EventError(MacOSError):$/;"	c
+FILEMODE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^FILEMODE=	644$/;"	m
 File	lib/aem/mactypes.py	/^class File(_Base):$/;"	c
+GLHACK	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^GLHACK=-Dclear=__GLclear$/;"	m
+GRAMMAR_C	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^GRAMMAR_C=	$(srcdir)\/Python\/graminit.c$/;"	m
+GRAMMAR_H	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^GRAMMAR_H=	$(srcdir)\/Include\/graminit.h$/;"	m
+GRAMMAR_INPUT	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^GRAMMAR_INPUT=	$(srcdir)\/Grammar\/Grammar$/;"	m
 GenericApp	lib/appscript/reference.py	/^class GenericApp(GenericReference):$/;"	c
 GenericReference	lib/appscript/genericreference.py	/^class GenericReference(object):$/;"	c
 GreaterOrEquals	lib/aem/aemreference.py	/^class GreaterOrEquals(_ComparisonTest):$/;"	c
 GreaterThan	lib/aem/aemreference.py	/^class GreaterThan(_ComparisonTest):$/;"	c
 ID	lib/appscript/reference.py	/^	def ID(self, id):$/;"	m	class:Reference
+INCLDIRSTOMAKE	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INCLDIRSTOMAKE=$(INCLUDEDIR) $(CONFINCLUDEDIR) $(INCLUDEPY) $(CONFINCLUDEPY)$/;"	m
+INCLUDEDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INCLUDEDIR=	${prefix}\/include$/;"	m
+INCLUDEPY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INCLUDEPY=	$(INCLUDEDIR)\/python$(VERSION)$/;"	m
+INSTALL	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTALL=	\/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTALL_DATA=	${INSTALL} -m 644$/;"	m
+INSTALL_PROGRAM	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTALL_PROGRAM=${INSTALL}$/;"	m
+INSTALL_SCRIPT	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTALL_SCRIPT= ${INSTALL}$/;"	m
+INSTALL_SHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTALL_SHARED= ${INSTALL} -m 555$/;"	m
+INSTSONAME	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^INSTSONAME=	$(LDLIBRARY)$/;"	m
 InsertionSpecifier	lib/aem/aemreference.py	/^class InsertionSpecifier(Specifier):$/;"	c
 IsIn	lib/aem/aemreference.py	/^class IsIn(Contains):$/;"	c
 Keyword	lib/appscript/keywordwrapper.py	/^class Keyword(object):$/;"	c
+LDFLAGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LDFLAGS=	-arch i386 -arch ppc -isysroot \/Developer\/SDKs\/MacOSX10.4u.sdk -g $/;"	m
+LDLAST	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LDLAST=		$/;"	m
+LDLIBRARY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LDLIBRARY=      $(PYTHONFRAMEWORKDIR)\/Versions\/$(VERSION)\/$(PYTHONFRAMEWORK)$/;"	m
+LDLIBRARYDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LDLIBRARYDIR=   $/;"	m
+LDSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LDSHARED=	$(CC) $(LDFLAGS) -bundle -undefined dynamic_lookup$/;"	m
+LIBC	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBC=		$/;"	m
+LIBDEST	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBDEST=	$(SCRIPTDIR)\/python$(VERSION)$/;"	m
+LIBDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBDIR=		$(exec_prefix)\/lib$/;"	m
+LIBM	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBM=		$/;"	m
+LIBP	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBP=		$(LIBDIR)\/python$(VERSION)$/;"	m
+LIBPL	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBPL=		$(LIBP)\/config$/;"	m
+LIBRARY	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBRARY=	libpython$(VERSION).a$/;"	m
+LIBRARY_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBRARY_OBJS=	\\$/;"	m
+LIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBS=		-ldl $/;"	m
+LIBSUBDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LIBSUBDIRS=	lib-tk site-packages test test\/output test\/data \\$/;"	m
+LINKCC	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LINKCC=		$(PURIFY) $(MAINCC)$/;"	m
+LINKFORSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LINKFORSHARED=	-u _PyMac_Error $(PYTHONFRAMEWORKDIR)\/Versions\/$(VERSION)\/$(PYTHONFRAMEWORK)$/;"	m
+LN	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LN=		ln$/;"	m
+LOCALMODLIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^LOCALMODLIBS=          $/;"	m
 LessOrEquals	lib/aem/aemreference.py	/^class LessOrEquals(_ComparisonTest):$/;"	c
 LessThan	lib/aem/aemreference.py	/^class LessThan(_ComparisonTest):$/;"	c
 LittleEndianParser	lib/appscript/terminologyparser.py	/^class LittleEndianParser(Parser):$/;"	c
+MACHDEP	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACHDEP=	darwin$/;"	m
+MACHDEPPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACHDEPPATH=:plat-$(MACHDEP)$/;"	m
+MACHDEPS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACHDEPS=	$(PLATDIR) $(EXTRAPLATDIR)$/;"	m
+MACHDEP_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACHDEP_OBJS=	Python\/mactoolboxglue.o$/;"	m
+MACHDESTLIB	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACHDESTLIB=$(BINLIBDEST)$/;"	m
+MACOSX_DEPLOYMENT_TARGET	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MACOSX_DEPLOYMENT_TARGET=10.3$/;"	m
+MAINCC	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MAINCC=		$(CC)$/;"	m
+MAKESETUP	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MAKESETUP=      $(srcdir)\/Modules\/makesetup$/;"	m
+MANDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MANDIR=		${datarootdir}\/man$/;"	m
+MEMTESTOPTS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MEMTESTOPTS=    $(QUICKTESTOPTS) -x test_dl test___all__ test_fork1 \\$/;"	m
+MODLIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)$/;"	m
+MODOBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MODOBJS=          Modules\/threadmodule.o  Modules\/signalmodule.o  Modules\/posixmodule.o  Modules\/errnomodule.o  Modules\/pwdmodule.o  Modules\/_sre.o  Modules\/_codecsmodule.o  Modules\/zipimport.o  Modules\/symtablemodule.o  Modules\/xxsubtype.o$/;"	m
+MODULE_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^MODULE_OBJS=	\\$/;"	m
 NOT	lib/aem/aemreference.py	/^class NOT(_LogicalTest):$/;"	c
 NOT	lib/appscript/referencerenderer.py	/^	def NOT(self):$/;"	m	class:_Formatter
 NotEquals	lib/aem/aemreference.py	/^class NotEquals(Equals):$/;"	c
+OBJECT_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^OBJECT_OBJS=	\\$/;"	m
+OPT	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^OPT=		-DNDEBUG -g -O3 $/;"	m
 OR	lib/aem/aemreference.py	/^	def OR(self, operand2, * operands):$/;"	m	class:Test
 OR	lib/aem/aemreference.py	/^class OR(_LogicalTest):$/;"	c
 OR	lib/appscript/reference.py	/^	def OR(self, *operands):$/;"	m	class:Reference
 OR	lib/appscript/referencerenderer.py	/^	def OR(self, *operands):$/;"	m	class:_Formatter
 OSAX	lib/osax.py	/^class OSAX(reference.Application):$/;"	c
+OTHER_LIBTOOL_OPT	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^OTHER_LIBTOOL_OPT=$/;"	m
 ObjectBeingExamined	lib/aem/aemreference.py	/^class ObjectBeingExamined(ReferenceRoot):$/;"	c
+PARSER_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PARSER_OBJS=	$(POBJS) Parser\/myreadline.o Parser\/tokenizer.o$/;"	m
+PATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	export PATH; PATH="`pwd`:$$PATH"; \\$/;"	m
+PGEN	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PGEN=		Parser\/pgen$(EXE)$/;"	m
+PGENOBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PGENOBJS=	$(PGENMAIN) $(POBJS) $(PGOBJS)$/;"	m
+PGOBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PGOBJS=		\\$/;"	m
+PLATDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PLATDIR=	plat-$(MACHDEP)$/;"	m
+PLATMACDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PLATMACDIRS= plat-mac plat-mac\/Carbon plat-mac\/lib-scriptpackages \\$/;"	m
+PLATMACPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PLATMACPATH=:plat-mac:plat-mac\/lib-scriptpackages$/;"	m
+POBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^POBJS=		\\$/;"	m
+PYTHON	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHON=		python$(EXE)$/;"	m
+PYTHONFRAMEWORK	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHONFRAMEWORK=	Python$/;"	m
+PYTHONFRAMEWORKDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHONFRAMEWORKDIR=	Python.framework$/;"	m
+PYTHONFRAMEWORKINSTALLDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHONFRAMEWORKINSTALLDIR= \/Library\/Frameworks\/Python.framework$/;"	m
+PYTHONFRAMEWORKPREFIX	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHONFRAMEWORKPREFIX=	\/Library\/Frameworks$/;"	m
+PYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	PYTHONPATH=$(DESTDIR)$(LIBDEST)  $(RUNSHARED) \\$/;"	m
+PYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^	PYTHONPATH=$(DESTDIR)$(LIBDEST) $(RUNSHARED) \\$/;"	m
+PYTHONPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHONPATH=$(COREPYTHONPATH)$/;"	m
+PYTHON_HEADERS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHON_HEADERS= \\$/;"	m
+PYTHON_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PYTHON_OBJS=	\\$/;"	m
+PY_CFLAGS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^PY_CFLAGS=	$(CFLAGS) $(CPPFLAGS) $(CFLAGSFORSHARED) -DPy_BUILD_CORE$/;"	m
 Parser	lib/appscript/terminologyparser.py	/^class Parser:$/;"	c
 Property	lib/aem/aemreference.py	/^class Property(_PositionSpecifier):$/;"	c
+QUICKTESTOPTS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^QUICKTESTOPTS=	$(TESTOPTS) -x test_thread test_signal test_strftime \\$/;"	m
 Query	lib/aem/aemreference.py	/^class Query(object):$/;"	c
+RANLIB	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^RANLIB=		ranlib$/;"	m
+RESSRCDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^RESSRCDIR=$(srcdir)\/Mac\/Resources\/framework$/;"	m
+RUNSHARED	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^RUNSHARED=       DYLD_FRAMEWORK_PATH=\/private\/tmp\/_py\/_bld\/python:$/;"	m
 Reference	lib/appscript/reference.py	/^class Reference(_Base):$/;"	c
 ReferenceRoot	lib/aem/aemreference.py	/^class ReferenceRoot(_PositionSpecifier):$/;"	c
+SCRIPTDIR	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SCRIPTDIR=	$(prefix)\/lib$/;"	m
+SGI_ABI	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SGI_ABI=	$/;"	m
+SHELL	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SHELL=		\/bin\/sh$/;"	m
+SHLIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SHLIBS=		$(LIBS)$/;"	m
+SIGNAL_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SIGNAL_OBJS=	$/;"	m
+SITEPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SITEPATH=$/;"	m
+SO	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SO=		.so$/;"	m
+SRCDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SRCDIRS= 	Parser Grammar Objects Python Modules Mac$/;"	m
+SUBDIRSTOO	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SUBDIRSTOO=	Include Lib Misc Demo$/;"	m
+SVNVERSION	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SVNVERSION=	svnversion $(srcdir)$/;"	m
+SYSLIBS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^SYSLIBS=	$(LIBM) $(LIBC)$/;"	m
 Specifier	lib/aem/aemreference.py	/^class Specifier(Query):$/;"	c
+TESTOPTS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^TESTOPTS=	-l $(EXTRATESTOPTS)$/;"	m
+TESTPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^TESTPATH=$/;"	m
+TESTPROG	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^TESTPROG=	$(srcdir)\/Lib\/test\/regrtest.py$/;"	m
+TESTPYTHON	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^TESTPYTHON=	$(RUNSHARED) .\/$(BUILDPYTHON) -E -tt$/;"	m
+THREADOBJ	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^THREADOBJ=	Python\/thread.o$/;"	m
+TKPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^TKPATH=:lib-tk$/;"	m
 Test	lib/aem/aemreference.py	/^class Test(Query):$/;"	c
+UNICODE_OBJS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^UNICODE_OBJS=   Objects\/unicodeobject.o Objects\/unicodectype.o$/;"	m
+UNIVERSALSDK	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^UNIVERSALSDK=\/Developer\/SDKs\/MacOSX10.4u.sdk$/;"	m
 UnitTypeCodecs	lib/aem/aemcodecs.py	/^class UnitTypeCodecs(object):$/;"	c
 Units	lib/aem/mactypes.py	/^class Units(object):$/;"	c
 UnkeyedElements	lib/aem/aemreference.py	/^class UnkeyedElements(Specifier):$/;"	c
 UserProperty	lib/aem/aemreference.py	/^class UserProperty(_PositionSpecifier):$/;"	c
+VERSION	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^VERSION=	2.5$/;"	m
+VPATH	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^VPATH=		\/home\/fb6\/loewis\/25$/;"	m
+XMLLIBSUBDIRS	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^XMLLIBSUBDIRS=  xml xml\/dom xml\/etree xml\/parsers xml\/sax$/;"	m
 _Base	lib/aem/mactypes.py	/^class _Base(object):$/;"	c
 _Base	lib/appscript/reference.py	/^class _Base(object):$/;"	c
 _CollectComparable	lib/aem/aemreference.py	/^class _CollectComparable:$/;"	c
@@ -157,6 +299,9 @@ __hash__	lib/aem/typewrappers.py	/^	def __hash__(self): $/;"	m	class:AETypeBase	
 __hash__	lib/appscript/genericreference.py	/^	def __hash__(self):$/;"	m	class:GenericReference	file:
 __hash__	lib/appscript/keywordwrapper.py	/^	def __hash__(self): $/;"	m	class:Keyword	file:
 __hash__	lib/appscript/reference.py	/^	def __hash__(self):$/;"	m	class:Reference	file:
+__init__	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def __init__(self):$/;"	m	class:_get_argvemulator/ArgvCollector
+__init__	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^    def __init__(self, app_name):$/;"	m	class:if_app_on
+__init__	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^    def __init__(self,app_name):$/;"	m	class:auto_save
 __init__	iwork_auto_save.py	/^    def __init__(self, app_name):$/;"	m	class:if_app_on
 __init__	iwork_auto_save.py	/^    def __init__(self,app_name):$/;"	m	class:auto_save
 __init__	lib/aem/__init__.py	/^	def __init__(self, path=None, pid=None, url=None, desc=None, codecs= _defaultcodecs):$/;"	m	class:Application
@@ -206,6 +351,34 @@ __int__	lib/aem/mactypes.py	/^	def __int__(self):$/;"	m	class:Units	file:
 __int__	lib/appscript/reference.py	/^	def __int__(self):$/;"	m	class:CommandError	file:
 __iter__	lib/appscript/reference.py	/^	def __iter__(self): # dummy-proof$/;"	m	class:Reference	file:
 __le__	lib/appscript/genericreference.py	/^	def __le__(self, i):$/;"	m	class:GenericReference	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_AE.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_Evt.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_File.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_cn.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_hk.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_iso2022.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_jp.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_kr.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_codecs_tw.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_locale.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_multibytecodec.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_random.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_struct.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/_weakref.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/aem/ae.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/array.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/binascii.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/bz2.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/cStringIO.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/collections.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/datetime.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/itertools.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/math.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/operator.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/strop.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/time.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/unicodedata.py	/^def __load():$/;"	f	file:
+__load	build/bdist.macosx-10.3-ppc/python2.5-standalone/app/temp/zlib.py	/^def __load():$/;"	f	file:
 __lt__	lib/appscript/genericreference.py	/^	def __lt__(self, i):$/;"	m	class:GenericReference	file:
 __ne__	lib/aem/__init__.py	/^	def __ne__(self, val):$/;"	m	class:Application	file:
 __ne__	lib/aem/aemreference.py	/^	def __ne__(self, v):$/;"	m	class:Query	file:
@@ -216,6 +389,7 @@ __ne__	lib/appscript/genericreference.py	/^	def __ne__(self, i):$/;"	m	class:Gen
 __ne__	lib/appscript/keywordwrapper.py	/^	def __ne__(self, val):$/;"	m	class:Keyword	file:
 __ne__	lib/appscript/reference.py	/^	def __ne__(self, val):$/;"	m	class:Reference	file:
 __nonzero__	lib/appscript/keywordwrapper.py	/^	def __nonzero__(self):$/;"	m	class:Keyword	file:
+__openfiles	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def __openfiles(self, requestevent, replyevent):$/;"	m	class:_get_argvemulator/ArgvCollector	file:
 __repr__	lib/aem/__init__.py	/^	def __repr__(self):$/;"	m	class:Application	file:
 __repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:AllElements	file:
 __repr__	lib/aem/aemreference.py	/^	def __repr__(self):$/;"	m	class:CustomRoot	file:
@@ -242,24 +416,33 @@ __repr__	lib/appscript/keywordwrapper.py	/^	def __repr__(self):$/;"	m	class:_Key
 __repr__	lib/appscript/reference.py	/^	def __repr__(self): # references display as themselves$/;"	m	class:Reference	file:
 __repr__	lib/appscript/reference.py	/^	def __repr__(self):$/;"	m	class:Command	file:
 __repr__	lib/appscript/reference.py	/^	def __repr__(self):$/;"	m	class:CommandError	file:
+__runapp	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def __runapp(self, requestevent, replyevent):$/;"	m	class:_get_argvemulator/ArgvCollector	file:
 __str__	lib/aem/aemconnect.py	/^	def __str__(self):$/;"	m	class:CantLaunchApplicationError	file:
 __str__	lib/aem/aemsend.py	/^	def __str__(self):$/;"	m	class:EventError	file:
 __str__	lib/aem/findapp.py	/^	def __str__(self):$/;"	m	class:ApplicationNotFoundError	file:
 __str__	lib/aem/mactypes.py	/^	def __str__(self):$/;"	m	class:Units	file:
 __str__	lib/appscript/reference.py	/^	def __str__(self):$/;"	m	class:CommandError	file:
 __str__	lib/osax.py	/^	def __str__(self):$/;"	m	class:OSAX	file:
+_argv_emulation	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^def _argv_emulation():$/;"	f
+_chdir_resource	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^def _chdir_resource():$/;"	f
 _defaultpacker	lib/aem/aemcodecs.py	/^	def _defaultpacker(self, units, code): $/;"	m	class:UnitTypeCodecs
 _defaultunpacker	lib/aem/aemcodecs.py	/^	def _defaultunpacker(self, desc, name):$/;"	m	class:UnitTypeCodecs
+_disable_linecache	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^def _disable_linecache():$/;"	f
 _displayhelp	lib/appscript/reference.py	/^	def _displayhelp(self, flags, ref):$/;"	m	class:AppData
+_dooneevent	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def _dooneevent(self, mask = highLevelEventMask, timeout = 1*60):$/;"	m	class:_get_argvemulator/ArgvCollector
 _errorinfo	lib/aem/aemsend.py	/^	def _errorinfo(self, key):$/;"	m	class:EventError
 _errorinfo	lib/appscript/reference.py	/^	def _errorinfo(self, key):$/;"	m	class:CommandError
 _errormessage	lib/appscript/reference.py	/^	def _errormessage(self):$/;"	m	class:CommandError
 _findapp	lib/aem/findapp.py	/^def _findapp(name=None, id=None, creator='????'):$/;"	f
 _format	lib/appscript/referencerenderer.py	/^	def _format(self, val):$/;"	m	class:_Formatter
+_get_argvemulator	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^def _get_argvemulator():$/;"	f
 _help	lib/osax.py	/^		def _help(*args):$/;"	f	function:OSAX.__init__
+_init_pathinfo	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/site.py	/^def _init_pathinfo():$/;"	f
+_init_pathinfo	dist/iwork_auto_save.app/Contents/Resources/site.py	/^def _init_pathinfo():$/;"	f
 _inithelpagent	lib/appscript/reference.py	/^	def _inithelpagent(self):$/;"	m	class:AppData
 _kNoPath	lib/aem/mactypes.py	/^class _kNoPath: pass$/;"	c
 _launchapplication	lib/aem/aemconnect.py	/^def _launchapplication(path, event):$/;"	f
+_lowlevelhandler	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def _lowlevelhandler(self, event):$/;"	m	class:_get_argvemulator/ArgvCollector
 _makereferencetable	lib/appscript/terminology.py	/^def _makereferencetable(properties, elements, commands):$/;"	f
 _maketypetable	lib/appscript/terminology.py	/^def _maketypetable(classes, enums, properties):$/;"	f
 _packkey	lib/aem/aemreference.py	/^	def _packkey(self, codecs):$/;"	m	class:AllElements
@@ -273,13 +456,19 @@ _packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:In
 _packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:ReferenceRoot
 _packself	lib/aem/aemreference.py	/^	def _packself(self, codecs):$/;"	m	class:_PositionSpecifier
 _packuint32	lib/appscript/reference.py	/^def _packuint32(n): # used to pack csig attributes$/;"	f
+_quit	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def _quit(self):$/;"	m	class:_get_argvemulator/ArgvCollector
 _realref	lib/aem/aemreference.py	/^	def _realref(self):$/;"	m	class:DeferredSpecifier
 _resolverangeboundary	lib/appscript/reference.py	/^	def _resolverangeboundary(self, selector, valueifnone): # used by __getitem__() below$/;"	m	class:Reference
+_run	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^def _run(*scripts):$/;"	f
 _setrelaunchmode	lib/appscript/reference.py	/^	def _setrelaunchmode(self, mode): # mode = 'never', 'limited' or 'always'$/;"	m	class:Reference
 _setrelaunchmode	lib/appscript/reference.py	/^	def _setrelaunchmode(self, mode):$/;"	m	class:AppData
 _write	lib/appscript/reference.py	/^	def _write(self, s):$/;"	m	class:AppData
 aborttransaction	lib/aem/__init__.py	/^	def aborttransaction(self):$/;"	m	class:Application
 aborttransaction	lib/appscript/reference.py	/^	def aborttransaction(self):$/;"	m	class:Application
+addpackage	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/site.py	/^def addpackage(sitedir, name):$/;"	f
+addpackage	dist/iwork_auto_save.app/Contents/Resources/site.py	/^def addpackage(sitedir, name):$/;"	f
+addsitedir	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/site.py	/^def addsitedir(sitedir):$/;"	f
+addsitedir	dist/iwork_auto_save.app/Contents/Resources/site.py	/^def addsitedir(sitedir):$/;"	f
 addtypes	lib/aem/aemcodecs.py	/^	def addtypes(self, typedefs):$/;"	m	class:UnitTypeCodecs
 addunittypes	lib/aem/aemcodecs.py	/^	def addunittypes(self, typedefs):$/;"	m	class:Codecs
 aetesforapp	lib/appscript/terminology.py	/^def aetesforapp(aemapp):$/;"	f
@@ -294,6 +483,7 @@ aultterminology	lib/appscript/terminology.py	/^for name, code in defaultterminol
 aultterminology	lib/appscript/terminology.py	/^for name, code in defaultterminology.properties:$/;"	f
 aultterminology	lib/appscript/terminology.py	/^for name, code, params in defaultterminology.commands:$/;"	f
 aultterminology	lib/appscript/terminology.py	/^import defaultterminology$/;"	f
+auto_save	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^class auto_save(threading.Thread):$/;"	c
 auto_save	iwork_auto_save.py	/^class auto_save(threading.Thread):$/;"	c
 before	lib/appscript/referencerenderer.py	/^	def before(self):$/;"	m	class:_Formatter
 beginning	lib/appscript/referencerenderer.py	/^	def beginning(self):$/;"	m	class:_Formatter
@@ -316,12 +506,15 @@ byname	lib/aem/findapp.py	/^def byname(name):$/;"	f
 byrange	lib/aem/aemreference.py	/^	def byrange(self, start, stop):$/;"	m	class:_MultipleElements
 byrange	lib/appscript/referencerenderer.py	/^	def byrange(self, sel1, sel2):$/;"	m	class:_Formatter
 choose_app	a.py	/^def choose_app():$/;"	f
+choose_app	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^def choose_app():$/;"	f
 choose_app	iwork_auto_save.py	/^def choose_app():$/;"	f
+close	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def close(self):$/;"	m	class:_get_argvemulator/ArgvCollector
 con	lib/appscript/referencerenderer.py	/^	def con(self):$/;"	m	class:_Formatter
 connect	lib/appscript/reference.py	/^	def connect(self):$/;"	m	class:AppData
 contains	lib/aem/aemreference.py	/^	def contains(self, val):$/;"	m	class:_PositionSpecifier
 contains	lib/appscript/reference.py	/^	def contains(self, operand):$/;"	m	class:Reference
 contains	lib/appscript/referencerenderer.py	/^	def contains(self, sel):$/;"	m	class:_Formatter
+datarootdir	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^datarootdir=    ${prefix}\/share$/;"	m
 definition	lib/appscript/defaultterminology.py	/^		('item', 'cobj'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
 definition	lib/appscript/defaultterminology.py	/^		('items', 'cobj'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
 definition	lib/appscript/defaultterminology.py	/^		('properties', 'pALL'), # Apple have removed the 'item' class definition from skeleton.sdef$/;"	c
@@ -351,15 +544,19 @@ es	lib/appscript/terminologyparser.py	/^			self.classes.append((self._spareclass
 es	lib/appscript/terminologyparser.py	/^		return (self.classes, self.enumerators, self.properties, self.elements, list(self.commands.values()))$/;"	c	function:Parser.parse
 es	lib/appscript/terminologyparser.py	/^		self.classes = []$/;"	c	function:Parser.__init__
 event	lib/aem/__init__.py	/^	def event(self, event, params={}, atts={}, returnid=kae.kAutoGenerateReturnID, codecs=None):$/;"	m	class:Application
+exec_prefix	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^exec_prefix=	${prefix}$/;"	m
+fake_getline	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^    def fake_getline(*args, **kwargs):$/;"	f	function:_disable_linecache
 first	lib/appscript/referencerenderer.py	/^	def first(self):$/;"	m	class:_Formatter
 fullyunpackobjectspecifier	lib/aem/aemcodecs.py	/^	def fullyunpackobjectspecifier(self, desc):$/;"	m	class:Codecs
 ge	lib/aem/aemreference.py	/^	def ge(self, val):$/;"	m	class:_PositionSpecifier
 ge	lib/appscript/referencerenderer.py	/^	def ge(self, sel):$/;"	m	class:_Formatter
+get_app_name	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^def get_app_name(filename):$/;"	f
 get_app_name	iwork_auto_save.py	/^def get_app_name(filename):$/;"	f
 gt	lib/aem/aemreference.py	/^	def gt(self, val):$/;"	m	class:_PositionSpecifier
 gt	lib/appscript/referencerenderer.py	/^	def gt(self, sel):$/;"	m	class:_Formatter
 help	lib/appscript/reference.py	/^	def help(self, flags, ref):$/;"	m	class:AppData
 help	lib/appscript/reference.py	/^	def help(self, flags='-t'): # add a help() method to all concrete app, reference and command objects$/;"	m	class:_Base
+if_app_on	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^class if_app_on(threading.Thread):$/;"	c
 if_app_on	iwork_auto_save.py	/^class if_app_on(threading.Thread):$/;"	c
 ined	lib/aem/aemcodecs.py	/^		elif keyform == 'usrp': # user-defined property specifier$/;"	f	function:Codecs.fullyunpackobjectspecifier
 ined	lib/aem/aemreference.py	/^	_kBy = 'property'$/;"	m	class:Property
@@ -377,7 +574,6 @@ isin	lib/appscript/referencerenderer.py	/^	def isin(self, sel):$/;"	m	class:_For
 isnotin	lib/appscript/reference.py	/^	def isnotin(self, operand):$/;"	m	class:Reference
 isrunning	lib/appscript/reference.py	/^	def isrunning(self):$/;"	m	class:Reference
 its	lib/appscript/referencerenderer.py	/^	def its(self):$/;"	m	class:_Formatter
-killus	iwork_auto_save.py	/^def killus():$/;"	f
 last	lib/appscript/referencerenderer.py	/^	def last(self):$/;"	m	class:_Formatter
 launch	lib/appscript/reference.py	/^	def launch(self):$/;"	m	class:Application
 launchapp	lib/aem/aemconnect.py	/^def launchapp(path):$/;"	f
@@ -387,7 +583,11 @@ localapp	lib/aem/aemconnect.py	/^def localapp(path):$/;"	f
 localappbypid	lib/aem/aemconnect.py	/^def localappbypid(pid):$/;"	f
 lt	lib/aem/aemreference.py	/^	def lt(self, val):$/;"	m	class:_PositionSpecifier
 lt	lib/appscript/referencerenderer.py	/^	def lt(self, sel):$/;"	m	class:_Formatter
+main	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^def main():$/;"	f
 main	iwork_auto_save.py	/^def main():$/;"	f
+mainloop	dist/iwork_auto_save.app/Contents/Resources/__boot__.py	/^        def mainloop(self, mask = highLevelEventMask, timeout = 1*60):$/;"	m	class:_get_argvemulator/ArgvCollector
+makepath	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/site.py	/^def makepath(*paths):$/;"	f
+makepath	dist/iwork_auto_save.app/Contents/Resources/site.py	/^def makepath(*paths):$/;"	f
 makewithdesc	lib/aem/mactypes.py	/^	def makewithdesc(klass, desc):$/;"	m	class:Alias
 makewithdesc	lib/aem/mactypes.py	/^	def makewithdesc(klass, desc):$/;"	m	class:File
 makewithhfspath	lib/aem/mactypes.py	/^	def makewithhfspath(klass, path):$/;"	m	class:Alias
@@ -408,7 +608,9 @@ ne	lib/appscript/referencerenderer.py	/^	def ne(self, sel):$/;"	m	class:_Formatt
 next	lib/aem/aemreference.py	/^	def next(self, elementcode):$/;"	m	class:_PositionSpecifier
 next	lib/appscript/reference.py	/^	def next(self, klass):$/;"	m	class:Reference
 next	lib/appscript/referencerenderer.py	/^	def next(self, sel):$/;"	m	class:_Formatter
+open_app	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^def open_app(appname):$/;"	f
 open_app	iwork_auto_save.py	/^def open_app(appname):$/;"	f
+open_file	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^def open_file(filename):$/;"	f
 open_file	iwork_auto_save.py	/^def open_file(filename):$/;"	f
 pack	lib/aem/aemcodecs.py	/^	def pack(self, data):$/;"	m	class:Codecs
 pack	lib/aem/aemcodecs.py	/^	def pack(self, val):$/;"	m	class:UnitTypeCodecs
@@ -444,6 +646,7 @@ parsecomparison	lib/appscript/terminologyparser.py	/^	def parsecomparison(self):
 parseenumeration	lib/appscript/terminologyparser.py	/^	def parseenumeration(self): $/;"	m	class:Parser
 parsesuite	lib/appscript/terminologyparser.py	/^	def parsesuite(self):$/;"	m	class:Parser
 path	lib/aem/mactypes.py	/^	def path(self):$/;"	m	class:File
+prefix	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^prefix=		\/Library\/Frameworks\/Python.framework\/Versions\/2.5$/;"	m
 previous	lib/aem/aemreference.py	/^	def previous(self, elementcode):$/;"	m	class:_PositionSpecifier
 previous	lib/appscript/reference.py	/^	def previous(self, klass):$/;"	m	class:Reference
 previous	lib/appscript/referencerenderer.py	/^	def previous(self, sel):$/;"	m	class:_Formatter
@@ -458,12 +661,15 @@ referencebycode	lib/appscript/reference.py	/^	def referencebycode(self):$/;"	m	c
 referencebyname	lib/appscript/reference.py	/^	def referencebyname(self):$/;"	m	class:AppData
 remoteapp	lib/aem/aemconnect.py	/^def remoteapp(url):$/;"	f
 renderreference	lib/appscript/referencerenderer.py	/^def renderreference(appdata, aemreference, nested=False):$/;"	f
+run	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^    def run(self):$/;"	m	class:auto_save
+run	dist/iwork_auto_save.app/Contents/Resources/iwork_auto_save.py	/^    def run(self):$/;"	m	class:if_app_on
 run	iwork_auto_save.py	/^    def run(self):$/;"	m	class:auto_save
 run	iwork_auto_save.py	/^    def run(self):$/;"	m	class:if_app_on
 s	lib/appscript/terminology.py	/^	for name, code in defs:$/;"	f	function:s
 s	lib/appscript/terminology.py	/^for defs in [defaultterminology.types, defaultterminology.properties]:$/;"	f
 send	lib/aem/aemsend.py	/^	def send(self, timeout= kae.kAEDefaultTimeout, flags= kae.kAECanSwitchLayer + kae.kAEWaitReply):$/;"	m	class:Event
 sendappleevent	lib/aem/aemsend.py	/^def sendappleevent(evt, flags, timeout):$/;"	f
+srcdir	dist/iwork_auto_save.app/Contents/Resources/lib/python2.5/config/Makefile	/^srcdir=		\/home\/fb6\/loewis\/25$/;"	m
 tablesforaetes	lib/appscript/terminology.py	/^def tablesforaetes(aetes):$/;"	f
 tablesforapp	lib/appscript/terminology.py	/^def tablesforapp(aemapp):$/;"	f
 tablesformodule	lib/appscript/terminology.py	/^def tablesformodule(terms):$/;"	f

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+import pdb
+
 from appscript import *
 from osax import *
 import os
@@ -8,6 +10,7 @@ import sys
 import time
 import re
 import threading
+
 
 def open_app(appname):
     """
@@ -43,7 +46,7 @@ def get_app_name(filename):
     
     filename -- 文件名
     """
-    which_app = filename.split('.')[1]
+    which_app = filename.split('.')[-1]
     if which_app == "pages":
         return "Pages"
     elif which_app == "key":
@@ -76,25 +79,11 @@ class if_app_on(threading.Thread):
                     break
                 else:
                     print "exit"
-                    killus()
+                    os._exit(1)
 
             print "if_app_on3"
             time.sleep(5)
 
-def killus():
-    """
-    此函数用于退出本程序
-    
-    此函数用于退出本程序 -- 
-    """
-    
-    #得到本程序pid
-    our_pid = str(os.getpid())
-    #kill本程序
-    print "killing...."+our_pid
-    os.popen("kill "+our_pid)
-    
-    
     
 class auto_save(threading.Thread):
     """
@@ -109,17 +98,19 @@ class auto_save(threading.Thread):
         threading.Thread.__init__(self)
         self.app_name = app_name
 
+
     def run(self):
         #while if_app_on(app_name):
         while 1:
             print "auto_save"
+            if app(self.app_name).document():
+                print "auto_save2"
+                for doc in app(self.app_name).document():
+                    if doc.path():
+                        doc.save()
+                        print "saved"
+                print "auto_save3"
             time.sleep(600)
-            print "auto_save1"
-            for doc in app(self.app_name).document():
-                if doc.path():
-                    doc.save()
-                    print "saved"
-            print "auto_save2"
             
 
 def main():
@@ -138,11 +129,13 @@ def main():
     #thread_if_app_on.setDaemon(1)
     thread_auto_save = auto_save(app_name)
     thread_auto_save.setDaemon(True)
+    print thread_if_app_on.getName()
     print thread_auto_save.getName(),thread_auto_save.isDaemon()
 
     thread_if_app_on.start()
     time.sleep(2)
     thread_auto_save.start()
+    print "thread_auto_save.start()"
 
     while True:
         if len(threading.enumerate())==1:
