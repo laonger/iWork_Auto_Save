@@ -53,6 +53,16 @@ def get_app_name(filename):
         return "Keynote"
     elif which_app == "numbers":
         return "Numbers"
+def get_config():
+    path = os.getcwd()
+    f = open(path+"/config","r")
+    data = f.readlines()
+    f.close()
+    params = {}
+    for line in data:
+        param,value = line.rstrip("\n").split("=")
+        params[param] = value
+    return params
 
 class if_app_on(threading.Thread):
     """
@@ -110,13 +120,15 @@ class auto_save(threading.Thread):
                         doc.save()
                         print "saved"
                 print "auto_save3"
-            time.sleep(600)
+            time.sleep(int(get_config()['sleeping_time']))
             
 
 def main():
     """
     
     """
+    #OSAX().display_dialog(get_config()['sleeping_time'])
+    #OSAX().display_dialog(os.getcwd())
     if len(sys.argv) != 1:
         app_name = get_app_name(sys.argv[1])
         open_file(sys.argv[1])
